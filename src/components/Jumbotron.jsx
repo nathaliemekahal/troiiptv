@@ -19,7 +19,7 @@ export class Jumbotron extends Component {
               <Col md={6}>
                 <img
                   className="d-block w-100"
-                  src="http://placehold.jp/250x250.png"
+                  src="family.png"
                   alt="First slide"
                 />
               </Col>

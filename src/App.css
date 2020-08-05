@@ -1,4 +1,5 @@
 /*APP.js*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 .App {
   font-family: roboto !important;
   /* background-color: #4450b0; */
@@ -64,9 +65,8 @@
 .carousel-indicators {
   display: none;
 }
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+/*MANDEEP*/
 #prices {
-  font-family: "PT Sans";
   padding: 0px 100px;
 }
 #prices > div {
@@ -75,12 +75,18 @@
   margin-top: 40px;
 }
 #header {
+  font-family: "Poppins", sans-serif;
   width: 100%;
   text-align: center;
-  font-size: 32px;
+  font-size: 40px;
   line-height: 40px;
   font-weight: bold;
   color: #08094a;
+  padding-top: 90px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
 }
 #header span {
   color: #e66deb;
