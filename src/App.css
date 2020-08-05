@@ -1,38 +1,43 @@
+/*APP.js*/
 .App {
-  text-align: center;
+  font-family: roboto !important;
+  background-color: #4450b0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/*TOP NAVBAR*/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.top-navbar-class {
+  height: 102px;
+  padding: 25px 0;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.navRow-class {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+}
+
+.nav-ul-wrapper-class {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: end;
+}
+
+.nav-link {
+  color: white !important;
+  padding: 0 25px !important;
+}
+
+/*Carousel Content*/
+
+.title-class {
+  font-size: 55px;
+  line-height: 60px;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  padding-bottom: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: table-caption;
 }
