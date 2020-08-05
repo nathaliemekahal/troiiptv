@@ -14,6 +14,7 @@ function App() {
         <NavBar />
         <Jumbotron />
       </div>
+      <Prices />
     </div>
   );
 }

@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+#priceCard {
+  width: 350px;
+  border: 4px solid #4450b0;
+  padding: 15px;
+  font-family: "PT Sans";
+  font-size: 17px;
+}
+#priceCard p {
+  text-align: center;
+}
+#priceCard p span {
+  display: inline-block;
+  font-size: 36px;
+  font-weight: 700;
+  transform: translateY(5px);
+  padding: 0px 10px;
+}
+#priceCard p:first-of-type {
+  font-weight: 600;
+}
