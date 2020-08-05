@@ -10,7 +10,10 @@ export class Jumbotron extends Component {
             <Row>
               <Col>
                 <h1 className="title-class">
-                  PowerFul HOSTING Your dream website{" "}
+                  PowerFul
+                  <br /> HOSTING
+                  <br /> Your dream <br />
+                  website{" "}
                 </h1>
               </Col>
               <Col md={6}>

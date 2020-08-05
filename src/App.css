@@ -1,7 +1,7 @@
 /*APP.js*/
 .App {
   font-family: roboto !important;
-  background-color: #4450b0;
+  /* background-color: #4450b0; */
 }
 
 /*TOP NAVBAR*/
@@ -39,5 +39,28 @@
   padding-bottom: 30px;
   font-weight: bold;
   text-transform: uppercase;
-  display: table-caption;
+}
+
+.carousel-control-prev {
+  border-radius: 50%;
+  background-color: #2e428b;
+  height: 70px;
+  width: 70px;
+  opacity: 1;
+  font-size: 15px;
+  top: 100%;
+}
+.carousel-control-next {
+  border-radius: 50%;
+  background-color: #2e428b;
+  height: 70px;
+  width: 70px;
+  opacity: 1;
+  font-size: 15px;
+  top: 100%;
+  right: 0;
+  left: 75px;
+}
+.carousel-indicators {
+  display: none;
 }
