@@ -7,6 +7,7 @@ import Prices from "./components/Prices";
 import "typeface-roboto";
 import Jumbotron from "./components/Jumbotron";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       </div>
       <Header title1="Check Out Awesome Plans, " title2="Order Now" />
       <Prices />
+      <Footer />
     </div>
   );
 }
