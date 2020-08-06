@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container, Carousel, Row, Col } from "react-bootstrap";
-
+import Btn from "./Button";
 export class Jumbotron extends Component {
   render() {
     return (
@@ -15,6 +15,8 @@ export class Jumbotron extends Component {
                   <br /> Your dream <br />
                   website{" "}
                 </h1>
+                <Btn btnContent="hello" />
+                <Btn btnContent="and hi" />
               </Col>
               <Col md={6}>
                 <img

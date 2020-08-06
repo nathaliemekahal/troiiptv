@@ -44,19 +44,28 @@
 
 .carousel-control-prev {
   border-radius: 50%;
-  background-color: #ad235fd2;
+  background-color: transparent;
   height: 70px;
   width: 70px;
-  opacity: 1;
+
   font-size: 15px;
   top: 100%;
 }
+.carousel-control-prev:hover {
+  background-color: #b15e8e;
+  opacity: 0.4;
+  transition: all 0.3s ease-in;
+}
+.carousel-control-next:hover {
+  background-color: #b15e8e;
+  opacity: 0.4;
+  transition: all 0s ease-in;
+}
 .carousel-control-next {
   border-radius: 50%;
-  background-color: #ad235fd2;
+  background-color: transparent;
   height: 70px;
   width: 70px;
-  opacity: 1;
   font-size: 15px;
   top: 100%;
   right: 0;
