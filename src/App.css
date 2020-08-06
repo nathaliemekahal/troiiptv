@@ -44,7 +44,7 @@
 
 .carousel-control-prev {
   border-radius: 50%;
-  background-color: #2e428b;
+  background-color: #ad235fd2;
   height: 70px;
   width: 70px;
   opacity: 1;
@@ -53,7 +53,7 @@
 }
 .carousel-control-next {
   border-radius: 50%;
-  background-color: #2e428b;
+  background-color: #ad235fd2;
   height: 70px;
   width: 70px;
   opacity: 1;
