@@ -30,7 +30,7 @@ class NavBar extends Component {
                 style={{ flexWrap: "nowrap" }}
               >
                 <Link
-                  to="priceselement"
+                  to="prices"
                   activeClass="active"
                   spy={true}
                   smooth={true}

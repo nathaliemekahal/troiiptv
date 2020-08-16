@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/PriceCard.css";
-import { withRouter } from "react-router-dom";
+import { Col } from "react-bootstrap";
 
 export class PriceCard extends Component {
   constructor(props) {
@@ -15,7 +15,7 @@ export class PriceCard extends Component {
 
   render() {
     return (
-      <div id="priceCard">
+      <Col md={3} id="priceCard">
         <h3 className="priceTitle">{this.props.title}</h3>
         <p>
           STARTING <span translate="yes">${this.props.price}</span> PER MONTH
@@ -39,7 +39,7 @@ export class PriceCard extends Component {
         <p>Enigma</p>
         <p>Mag</p>
         <p>IOS</p>
-      </div>
+      </Col>
     );
   }
 }

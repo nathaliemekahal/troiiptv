@@ -8,23 +8,23 @@ export default function Footer() {
       <Container id="footer" fluid>
         <Row>
           <div>
-            <p> taloniptv@outlook.com</p>
+            <p> Support</p>
+            <p>taloniptv@outlook.com</p>
 
-            <p>Phone Number</p>
             <p>
-              <a href=""> Facebook</a>
+              <a
+                href="https://www.facebook.com/TALON-TV-102791111541474"
+                target="_blank"
+              >
+                {" "}
+                Facebook
+              </a>
             </p>
           </div>
           <div>
             <p> Company</p>
             <p>
-              <a href="">Home</a>
-            </p>
-            <p>
-              <a href="">Plans</a>
-            </p>
-            <p>
-              <a href="">Contact</a>
+              <a href="">Online</a>
             </p>
           </div>
           <div>
