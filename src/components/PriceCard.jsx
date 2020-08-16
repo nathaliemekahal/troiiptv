@@ -15,18 +15,21 @@ export class PriceCard extends Component {
   render() {
     return (
       <div id="priceCard">
-        <p>SHARED HOSTING</p>
+        <h3 className="priceTitle">{this.props.title}</h3>
         <p>
-          STARTING <span translate="yes">$9</span> PER MONTH
+          STARTING <span translate="yes">${this.props.price}</span> PER MONTH
         </p>
         <p>
           <button>Hello</button>
         </p>
-        <p>Unlimited projects</p>
-        <p>24/7 support</p>
-        <p>Personal use</p>
-        <p>Unlimited projects</p>
-        <p>24/7 support</p>
+        <p>24/7 Customer Support</p>
+        <p>VOD Available</p>
+        <p>4500 channels</p>
+        <p>Smart tv</p>
+        <p>Android</p>
+        <p>Enigma</p>
+        <p>Mag</p>
+        <p>IOS</p>
       </div>
     );
   }

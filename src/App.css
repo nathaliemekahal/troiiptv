@@ -26,9 +26,18 @@
   justify-content: end;
 }
 
-.nav-link {
+.links {
   color: white !important;
   padding: 0 25px !important;
+  font-size: 21px;
+  cursor: pointer;
+}
+.links:hover {
+  color: white;
+  background-color: #624390;
+
+  cursor: pointer;
+  text-decoration: none;
 }
 
 /*Carousel Content*/
@@ -75,6 +84,12 @@
   display: none;
 }
 /*MANDEEP*/
+.priceTitle {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px gray solid;
+  color: #b15e8e;
+}
 #prices {
   padding: 0px 100px;
 }
@@ -106,4 +121,10 @@
   margin: 0 auto;
   text-align: center;
   font-size: 17px;
+}
+.features-wrapper {
+  display: flex;
+}
+.features {
+  color: white;
 }
