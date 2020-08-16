@@ -8,9 +8,8 @@ export default function Footer() {
       <Container id="footer" fluid>
         <Row>
           <div>
-            <p> Support</p>
-            <p>Address</p>
-            <p>Email</p>
+            <p> taloniptv@outlook.com</p>
+
             <p>Phone Number</p>
             <p>
               <a href=""> Facebook</a>

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/PriceCard.css";
+import { withRouter } from "react-router-dom";
 
 export class PriceCard extends Component {
   constructor(props) {
@@ -20,7 +21,15 @@ export class PriceCard extends Component {
           STARTING <span translate="yes">${this.props.price}</span> PER MONTH
         </p>
         <p>
-          <button>Hello</button>
+          {/* <button className="typeform-share button">Hello</button> */}
+          <a
+            class="typeform-share button"
+            href="https://taloniptv.typeform.com/to/R1AxEVlD"
+            data-mode="popup"
+            target="_blank"
+          >
+            Fill request form
+          </a>
         </p>
         <p>24/7 Customer Support</p>
         <p>VOD Available</p>
