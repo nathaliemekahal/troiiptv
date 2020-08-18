@@ -14,13 +14,13 @@ export class Jumbotron extends Component {
                   <br /> By
                   <br /> Talon Tv
                 </h1>
-                <Btn btnContent="hello" />
-                <Btn btnContent="and hi" />
+                {/* <Btn btnContent="hello" />
+                <Btn btnContent="and hi" /> */}
               </Col>
               <Col md={6}>
                 <img
                   className="d-block w-100"
-                  src="family.png"
+                  src="https://i.ibb.co/JHdbm1q/family.png"
                   alt="First slide"
                 />
               </Col>
@@ -40,8 +40,8 @@ export class Jumbotron extends Component {
                   <br /> By
                   <br /> Talon Tv
                 </h1>
-                <Btn btnContent="hello" />
-                <Btn btnContent="and hi" />
+                {/* <Btn btnContent="hello" />
+                <Btn btnContent="and hi" /> */}
               </Col>
               <Col md={6}>
                 <div className="features-wrapper">
@@ -79,8 +79,8 @@ export class Jumbotron extends Component {
                   <br /> By
                   <br /> Talon Tv
                 </h1>
-                <Btn btnContent="hello" />
-                <Btn btnContent="and hi" />
+                {/* <Btn btnContent="hello" />
+                <Btn btnContent="and hi" /> */}
               </Col>
               <Col md={6}>
                 <div className="features-wrapper">
@@ -118,8 +118,8 @@ export class Jumbotron extends Component {
                   <br /> By
                   <br /> Talon Tv
                 </h1>
-                <Btn btnContent="hello" />
-                <Btn btnContent="and hi" />
+                {/* <Btn btnContent="hello" />
+                <Btn btnContent="and hi" /> */}
               </Col>
               <Col md={6}>
                 <div className="features-wrapper">
@@ -157,8 +157,8 @@ export class Jumbotron extends Component {
                   <br /> By
                   <br /> Talon Tv
                 </h1>
-                <Btn btnContent="hello" />
-                <Btn btnContent="and hi" />
+                {/* <Btn btnContent="swds" />
+                <Btn btnContent="and hi" /> */}
               </Col>
               <Col md={6}>
                 <div className="features-wrapper">

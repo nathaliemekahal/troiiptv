@@ -6,8 +6,8 @@ export default function Footer() {
   return (
     <>
       <Container id="footer" fluid>
-        <Row>
-          <div>
+        <Row sm={1} md={2}>
+          <Col className="justify-content-center">
             <p> Support</p>
             <p>taloniptv@outlook.com</p>
 
@@ -20,20 +20,15 @@ export default function Footer() {
                 Facebook
               </a>
             </p>
-          </div>
-          <div>
-            <p> Company</p>
-            <p>
-              <a href="">Online</a>
-            </p>
-          </div>
-          <div>
+          </Col>
+
+          <Col>
             <p>Services</p>
             <p>Monthly Plan</p>
             <p>Two Months Plan</p>
             <p>6 Months Plan</p>
             <p>Yearly Plan</p>
-          </div>
+          </Col>
         </Row>
         <p>© 2020 All Rights Reserved.</p>
       </Container>
