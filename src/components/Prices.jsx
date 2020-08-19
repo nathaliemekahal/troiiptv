@@ -14,10 +14,15 @@ export class Prices extends Component {
           laborum. Ad! */}
         </p>
         <Row className="no-gutters">
-          <PriceCard title="Starter" price="12.98" description="" />
-          <PriceCard title="Advanced" price="11.66" />
-          <PriceCard title="Champion" price="9.99" />
-          <PriceCard title="Legend" price="8.33" />
+          <PriceCard
+            title="One month plan"
+            // span="One month plan"
+            price="12.98"
+            description=""
+          />
+          <PriceCard title="Three months plan" price="34.99" />
+          <PriceCard title="Six months plan" price="59.99" />
+          <PriceCard title="One year plan" price="99.99" />
         </Row>
       </Container>
     );

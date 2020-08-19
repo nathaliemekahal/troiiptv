@@ -89,6 +89,7 @@
   justify-content: center;
   border-bottom: 1px gray solid;
   color: #b15e8e;
+  align-items: center;
 }
 #prices {
   padding: 0px 100px;

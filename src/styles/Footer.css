@@ -6,7 +6,7 @@
 }
 #footer .row {
   display: flex !important;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0px 40px;
 }
 #footer .row div p:first-of-type {

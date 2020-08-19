@@ -21,3 +21,7 @@
 #priceCard p:first-of-type {
   font-weight: 600;
 }
+.title-span {
+  color: #2e3192;
+  font-size: 15px;
+}

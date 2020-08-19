@@ -18,7 +18,7 @@ export class PriceCard extends Component {
       <Col md={3} id="priceCard">
         <h3 className="priceTitle">{this.props.title}</h3>
         <p>
-          STARTING <span translate="yes">${this.props.price}</span> PER MONTH
+          <span translate="yes">${this.props.price}</span> For the plan
         </p>
         <p>
           {/* <button className="typeform-share button">Hello</button> */}
