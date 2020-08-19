@@ -12,7 +12,7 @@ export class Jumbotron extends Component {
                 <h1 className="title-class">
                   IPTV
                   <br /> By
-                  <br /> Talon Tv
+                  <br /> TROI Tv
                 </h1>
                 {/* <Btn btnContent="hello" />
                 <Btn btnContent="and hi" /> */}
@@ -20,8 +20,10 @@ export class Jumbotron extends Component {
               <Col md={6}>
                 <img
                   className="d-block w-100"
-                  src="https://i.ibb.co/JHdbm1q/family.png"
+                  src="servers.png"
                   alt="First slide"
+                  width="500px"
+                  className="imgClass"
                 />
               </Col>
               {/* <Carousel.Caption>
@@ -38,7 +40,7 @@ export class Jumbotron extends Component {
                 <h1 className="title-class">
                   IPTV
                   <br /> By
-                  <br /> Talon Tv
+                  <br /> TROI Tv
                 </h1>
                 {/* <Btn btnContent="hello" />
                 <Btn btnContent="and hi" /> */}
@@ -54,7 +56,7 @@ export class Jumbotron extends Component {
                       fill="currentColor"
                       xmlns="http://www.w3.org/2000/svg"
                       className="mr-3"
-                      style={{ color: "#b15e8e" }}
+                      style={{ color: "#25E1ED" }}
                     >
                       <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
                     </svg>
@@ -76,7 +78,7 @@ export class Jumbotron extends Component {
                 <h1 className="title-class">
                   IPTV
                   <br /> By
-                  <br /> Talon Tv
+                  <br /> TROI Tv
                 </h1>
                 {/* <Btn btnContent="hello" />
                 <Btn btnContent="and hi" /> */}
@@ -92,7 +94,7 @@ export class Jumbotron extends Component {
                       fill="currentColor"
                       xmlns="http://www.w3.org/2000/svg"
                       className="mr-3"
-                      style={{ color: "#b15e8e" }}
+                      style={{ color: "#25E1ED" }}
                     >
                       <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
                     </svg>
@@ -115,7 +117,7 @@ export class Jumbotron extends Component {
                 <h1 className="title-class">
                   IPTV
                   <br /> By
-                  <br /> Talon Tv
+                  <br /> TROI Tv
                 </h1>
                 {/* <Btn btnContent="hello" />
                 <Btn btnContent="and hi" /> */}
@@ -131,7 +133,7 @@ export class Jumbotron extends Component {
                       fill="currentColor"
                       xmlns="http://www.w3.org/2000/svg"
                       className="mr-3"
-                      style={{ color: "#b15e8e" }}
+                      style={{ color: "#25E1ED" }}
                     >
                       <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
                     </svg>
@@ -154,7 +156,7 @@ export class Jumbotron extends Component {
                 <h1 className="title-class">
                   IPTV
                   <br /> By
-                  <br /> Talon Tv
+                  <br /> TROI Tv
                 </h1>
                 {/* <Btn btnContent="swds" />
                 <Btn btnContent="and hi" /> */}
@@ -170,7 +172,7 @@ export class Jumbotron extends Component {
                       fill="currentColor"
                       xmlns="http://www.w3.org/2000/svg"
                       className="mr-3"
-                      style={{ color: "#b15e8e" }}
+                      style={{ color: "#25E1ED" }}
                     >
                       <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
                     </svg>

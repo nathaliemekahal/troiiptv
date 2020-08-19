@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <div style={{ backgroundColor: "#2e3192 ", paddingBottom: "100px" }}>
+      <div style={{ backgroundColor: "#18133A ", paddingBottom: "100px" }}>
         <NavBar />
         <Jumbotron />
       </div>

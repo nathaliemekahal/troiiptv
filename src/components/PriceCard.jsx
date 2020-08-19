@@ -22,14 +22,14 @@ export class PriceCard extends Component {
         </p>
         <p>
           {/* <button className="typeform-share button">Hello</button> */}
-          <a
+          {/* <a
             class="typeform-share button"
             href="https://taloniptv.typeform.com/to/R1AxEVlD"
             data-mode="popup"
             target="_blank"
-          >
-            Fill request form
-          </a>
+          > */}
+          {/* Fill request form
+          </a> */}
         </p>
         <p>24/7 Customer Support</p>
         <p>VOD Available</p>

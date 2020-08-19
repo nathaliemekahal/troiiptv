@@ -27,15 +27,15 @@
 }
 
 .links {
-  color: white !important;
+  color: #29e8e9 !important;
   padding: 0 25px !important;
   font-size: 21px;
   cursor: pointer;
 }
 .links:hover {
-  color: white;
-  background-color: #624390;
-
+  color: white !important;
+  background-color: #887ad2;
+  opacity: 0.5;
   cursor: pointer;
   text-decoration: none;
 }
@@ -45,10 +45,11 @@
 .title-class {
   font-size: 55px;
   line-height: 60px;
-  color: white;
+  color: #dfd3eb;
   padding-bottom: 30px;
   font-weight: bold;
   text-transform: uppercase;
+  /* padding-top: 52px; */
 }
 
 .carousel-control-prev {
@@ -61,12 +62,12 @@
   top: 100%;
 }
 .carousel-control-prev:hover {
-  background-color: #b15e8e;
+  background-color: #887ad2;
   opacity: 0.4;
   transition: all 0.3s ease-in;
 }
 .carousel-control-next:hover {
-  background-color: #b15e8e;
+  background-color: #887ad2;
   opacity: 0.4;
   transition: all 0s ease-in;
 }
@@ -88,7 +89,7 @@
   display: flex;
   justify-content: center;
   border-bottom: 1px gray solid;
-  color: #b15e8e;
+  color: #877ad1;
 }
 #prices {
   padding: 0px 100px;
@@ -106,7 +107,7 @@
   font-size: 40px;
   line-height: 40px;
   font-weight: bold;
-  color: #08094a;
+  color: #877ad1;
   padding-top: 90px;
   text-transform: uppercase;
   font-weight: 700;
@@ -127,4 +128,11 @@
 }
 .features {
   color: white;
+}
+.imgClass {
+  /* -webkit-filter: blur(20px);
+  -moz-filter: blur(20px);
+  -o-filter: blur(20px);
+  -ms-filter: blur(20px);
+  filter: blur(20px); */
 }

@@ -11,10 +11,7 @@ class NavBar extends Component {
           <Row className="navRow-class">
             <Col md={2} style={{}}>
               <div className="Logo-div-wrapper">
-                <img
-                  width="150px "
-                  src="https://i.ibb.co/MPS2zR9/logopng.png"
-                />
+                <img width="150px " src="gentlogo2.png" />
               </div>
             </Col>
             <Col md={8} style={{ display: "flex", justifyContent: "end" }}>
