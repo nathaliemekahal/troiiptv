@@ -152,7 +152,7 @@ export class Jumbotron extends Component {
             </Row>
           </Carousel.Item>
           <Carousel.Item>
-            <Row>
+            <Row className="justify-content-center">
               <Col style={{ height: "350px" }}>
                 <h1 className="title-class">
                   IPTV
@@ -162,7 +162,7 @@ export class Jumbotron extends Component {
                 {/* <Btn btnContent="swds" />
                 <Btn btnContent="and hi" /> */}
               </Col>
-              <Col md={6}>
+              <Col xs={3} sm={3} md={6}>
                 <div className="features-wrapper">
                   <h3 className="features">
                     <svg
