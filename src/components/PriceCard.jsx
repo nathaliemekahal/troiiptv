@@ -18,7 +18,7 @@ export class PriceCard extends Component {
       <Col md={3} id="priceCard">
         <h3 className="priceTitle">{this.props.title}</h3>
         <p>
-          STARTING <span translate="yes">${this.props.price}</span> PER MONTH
+          <span translate="yes">€{this.props.price}</span> For the plan
         </p>
         <p>
           {/* <button className="typeform-share button">Hello</button> */}
@@ -32,11 +32,11 @@ export class PriceCard extends Component {
           </a> */}
         </p>
         <p>24/7 Customer Support</p>
-        <p>VOD Available</p>
-        <p>4500 channels</p>
+        <p> NETFLIX TV SHOWS</p>
+        <p>12000+ CHANNELS</p>
+        <p>3000+ MOVIES</p>
         <p>Smart tv</p>
         <p>Android</p>
-        <p>Enigma</p>
         <p>Mag</p>
         <p>IOS</p>
       </Col>
